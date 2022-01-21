@@ -8,6 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Tahsib/GitOps
     targetRevision: HEAD
+    path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: default
